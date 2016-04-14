@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none" >
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="1897dp"
+            >
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Posted By: "
+                android:id="@+id/textView8"
+                android:layout_marginTop="107dp"
+                android:layout_marginLeft="43dp"
+                android:layout_marginStart="43dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Posted By"
+                android:id="@+id/postedBy"
+                android:layout_alignTop="@+id/textView8"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="89dp"
+                android:layout_marginEnd="89dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="36dp"
+                android:id="@+id/view"
+                android:layout_below="@+id/textView8"
+                android:layout_alignRight="@+id/abundanceLabel"
+                android:layout_alignEnd="@+id/abundanceLabel" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Project Tag:"
+                android:id="@+id/textView10"
+                android:layout_marginTop="40dp"
+                android:layout_below="@+id/view"
+                android:layout_alignLeft="@+id/textView8"
+                android:layout_alignStart="@+id/textView8" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/projectTag"
+                android:layout_alignTop="@+id/textView10"
+                android:layout_alignLeft="@+id/postedBy"
+                android:layout_alignStart="@+id/postedBy" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_below="@+id/textView10"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="42dp"
+                android:id="@+id/view3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Organism Type:"
+                android:id="@+id/textView11"
+                android:layout_below="@+id/view3"
+                android:layout_alignLeft="@+id/textView10"
+                android:layout_alignStart="@+id/textView10"
+                android:layout_marginTop="52dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Type"
+                android:id="@+id/organismType"
+                android:layout_alignBottom="@+id/textView11"
+                android:layout_alignLeft="@+id/projectTag"
+                android:layout_alignStart="@+id/projectTag" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_below="@+id/textView11"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="42dp"
+                android:id="@+id/view2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Wild Status:"
+                android:id="@+id/textView12"
+                android:layout_below="@+id/view2"
+                android:layout_alignLeft="@+id/textView11"
+                android:layout_alignStart="@+id/textView11"
+                android:layout_marginTop="57dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Status"
+                android:id="@+id/status"
+                android:layout_alignTop="@+id/textView12"
+                android:layout_alignLeft="@+id/organismType"
+                android:layout_alignStart="@+id/organismType" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_below="@+id/textView12"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="36dp"
+                android:id="@+id/view4" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Scientific Name: "
+                android:id="@+id/textView13"
+                android:layout_marginTop="50dp"
+                android:layout_below="@+id/view4"
+                android:layout_alignLeft="@+id/textView12"
+                android:layout_alignStart="@+id/textView12" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Scientific-y"
+                android:id="@+id/scientificNameLabel"
+                android:layout_alignTop="@+id/textView13"
+                android:layout_alignLeft="@+id/status"
+                android:layout_alignStart="@+id/status" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_below="@+id/scientificNameLabel"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="42dp"
+                android:id="@+id/view5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Common Name:"
+                android:id="@+id/textView14"
+                android:layout_marginTop="47dp"
+                android:layout_below="@+id/view5"
+                android:layout_alignLeft="@+id/textView13"
+                android:layout_alignStart="@+id/textView13" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Common"
+                android:id="@+id/commonNameLabel"
+                android:layout_alignTop="@+id/textView14"
+                android:layout_alignLeft="@+id/scientificNameLabel"
+                android:layout_alignStart="@+id/scientificNameLabel" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_below="@+id/commonNameLabel"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="40dp"
+                android:id="@+id/view6" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Phenology: "
+                android:id="@+id/textView15"
+                android:layout_marginTop="36dp"
+                android:layout_below="@+id/view6"
+                android:layout_alignLeft="@+id/textView14"
+                android:layout_alignStart="@+id/textView14" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Adult"
+                android:id="@+id/phenLabel"
+                android:layout_alignTop="@+id/textView15"
+                android:layout_alignLeft="@+id/scientificNameLabel"
+                android:layout_alignStart="@+id/scientificNameLabel" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_below="@+id/textView15"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="36dp"
+                android:id="@+id/view7" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Abundance:"
+                android:id="@+id/textView16"
+                android:layout_below="@+id/view7"
+                android:layout_alignLeft="@+id/textView15"
+                android:layout_alignStart="@+id/textView15"
+                android:layout_marginTop="57dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="2-20 individuals in view"
+                android:id="@+id/abundanceLabel"
+                android:layout_alignTop="@+id/textView16"
+                android:layout_alignLeft="@+id/phenLabel"
+                android:layout_alignStart="@+id/phenLabel" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_below="@+id/abundanceLabel"
+                android:layout_alignRight="@+id/abundanceLabel"
+                android:layout_alignEnd="@+id/abundanceLabel"
+                android:layout_marginTop="38dp"
+                android:id="@+id/view8" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Latitude: "
+                android:id="@+id/textView17"
+                android:layout_below="@+id/view8"
+                android:layout_alignLeft="@+id/textView16"
+                android:layout_alignStart="@+id/textView16"
+                android:layout_marginTop="42dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="0.0"
+                android:id="@+id/latitudeLabel"
+                android:layout_above="@+id/view9"
+                android:layout_alignLeft="@+id/abundanceLabel"
+                android:layout_alignStart="@+id/abundanceLabel" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_below="@+id/textView17"
+                android:layout_alignRight="@+id/abundanceLabel"
+                android:layout_alignEnd="@+id/abundanceLabel"
+                android:layout_marginTop="42dp"
+                android:id="@+id/view9" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Longitude:"
+                android:id="@+id/textView18"
+                android:layout_below="@+id/view9"
+                android:layout_alignLeft="@+id/textView17"
+                android:layout_alignStart="@+id/textView17"
+                android:layout_marginTop="49dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="0.0"
+                android:id="@+id/longitudeLabel"
+                android:layout_alignTop="@+id/textView18"
+                android:layout_alignLeft="@+id/latitudeLabel"
+                android:layout_alignStart="@+id/latitudeLabel" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_below="@+id/textView18"
+                android:layout_alignRight="@+id/abundanceLabel"
+                android:layout_alignEnd="@+id/abundanceLabel"
+                android:layout_marginTop="47dp"
+                android:id="@+id/view10" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Accuracy(m):"
+                android:id="@+id/textView19"
+                android:layout_below="@+id/view10"
+                android:layout_alignLeft="@+id/textView18"
+                android:layout_alignStart="@+id/textView18"
+                android:layout_marginTop="47dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="0"
+                android:id="@+id/accuracyLabel"
+                android:layout_alignTop="@+id/textView19"
+                android:layout_alignLeft="@+id/longitudeLabel"
+                android:layout_alignStart="@+id/longitudeLabel" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_below="@+id/textView19"
+                android:layout_alignRight="@+id/abundanceLabel"
+                android:layout_alignEnd="@+id/abundanceLabel"
+                android:layout_marginTop="42dp"
+                android:id="@+id/view11" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Township: "
+                android:id="@+id/textView20"
+                android:layout_marginTop="35dp"
+                android:layout_below="@+id/view11"
+                android:layout_alignRight="@+id/textView18"
+                android:layout_alignEnd="@+id/textView18" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Test"
+                android:id="@+id/townshipLabel"
+                android:layout_alignTop="@+id/textView20"
+                android:layout_alignLeft="@+id/accuracyLabel"
+                android:layout_alignStart="@+id/accuracyLabel" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_below="@+id/textView20"
+                android:layout_alignRight="@+id/abundanceLabel"
+                android:layout_alignEnd="@+id/abundanceLabel"
+                android:layout_marginTop="45dp"
+                android:id="@+id/view12" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="County: "
+                android:id="@+id/textView29"
+                android:layout_marginTop="40dp"
+                android:layout_below="@+id/view12"
+                android:layout_alignLeft="@+id/textView20"
+                android:layout_alignStart="@+id/textView20" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Test"
+                android:id="@+id/countyLabel"
+                android:layout_alignTop="@+id/textView29"
+                android:layout_alignLeft="@+id/townshipLabel"
+                android:layout_alignStart="@+id/townshipLabel" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_below="@+id/textView29"
+                android:layout_alignRight="@+id/abundanceLabel"
+                android:layout_alignEnd="@+id/abundanceLabel"
+                android:layout_marginTop="36dp"
+                android:id="@+id/view13" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="State: "
+                android:id="@+id/textView21"
+                android:layout_below="@+id/view13"
+                android:layout_alignLeft="@+id/textView29"
+                android:layout_alignStart="@+id/textView29"
+                android:layout_marginTop="36dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Test"
+                android:id="@+id/stateLabel"
+                android:layout_above="@+id/view14"
+                android:layout_alignLeft="@+id/countyLabel"
+                android:layout_alignStart="@+id/countyLabel" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_below="@+id/textView21"
+                android:layout_alignRight="@+id/abundanceLabel"
+                android:layout_alignEnd="@+id/abundanceLabel"
+                android:layout_marginTop="36dp"
+                android:id="@+id/view14" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Nation: "
+                android:id="@+id/textView22"
+                android:layout_marginTop="45dp"
+                android:layout_below="@+id/view14"
+                android:layout_alignLeft="@+id/textView21"
+                android:layout_alignStart="@+id/textView21" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Test"
+                android:id="@+id/nationLabel"
+                android:layout_alignTop="@+id/textView22"
+                android:layout_alignLeft="@+id/stateLabel"
+                android:layout_alignStart="@+id/stateLabel" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_below="@+id/textView22"
+                android:layout_alignRight="@+id/abundanceLabel"
+                android:layout_alignEnd="@+id/abundanceLabel"
+                android:layout_marginTop="36dp"
+                android:id="@+id/view15" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Posted Date: "
+                android:id="@+id/textView23"
+                android:layout_marginTop="40dp"
+                android:layout_below="@+id/view15"
+                android:layout_alignLeft="@+id/textView19"
+                android:layout_alignStart="@+id/textView19" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="test"
+                android:id="@+id/dateLabel"
+                android:layout_alignTop="@+id/textView23"
+                android:layout_toLeftOf="@+id/accuracyLabel"
+                android:layout_toStartOf="@+id/accuracyLabel" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Species Name"
+                android:id="@+id/setSpeciesName"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/pictureOne"
+                android:layout_below="@+id/textView23"
+                android:layout_alignLeft="@+id/textView22"
+                android:layout_alignStart="@+id/textView22"
+                android:layout_alignParentBottom="true"
+                android:layout_alignRight="@+id/textView19"
+                android:layout_alignEnd="@+id/textView19" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/pictureTwo"
+                android:layout_alignTop="@+id/pictureOne"
+                android:layout_alignBottom="@+id/pictureOne"
+                android:layout_alignLeft="@+id/dateLabel"
+                android:layout_alignStart="@+id/dateLabel"
+                android:layout_alignRight="@+id/commonNameLabel"
+                android:layout_alignEnd="@+id/commonNameLabel" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>
